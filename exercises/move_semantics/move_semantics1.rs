@@ -5,9 +5,10 @@
 
 
 fn main() {
-    let vec0 = Vec::new();
+    let vec0: Vec<i32> = Vec::new();
 
-    let mut vec1 = fill_vec(vec0);
+    // let mut vec1 = fill_vec(vec0);
+    let mut vec1:Vec<i32> = Vec::new();
 
     println!("{} has length {} content `{:?}`", "vec1", vec1.len(), vec1);
 

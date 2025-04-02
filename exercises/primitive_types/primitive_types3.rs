@@ -7,7 +7,10 @@
 
 
 fn main() {
+    // [T; lenghth]
     let a = [0; 1000];
+    let c = ['c'; 100];
+
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");

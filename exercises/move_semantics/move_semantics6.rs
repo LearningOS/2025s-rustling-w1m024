@@ -9,7 +9,7 @@
 fn main() {
     let data = "Rust is great!".to_string();
 
-    get_char(data.clone());
+    get_char(&data);
 
     string_uppercase(data);
 }
